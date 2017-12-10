@@ -1,0 +1,16 @@
+
+  
+  <dp-date-picker id="monthPicker"
+  name="monthPicker"
+  #datePicker
+  #monthPicker="ngModel"
+  [(ngModel)]="date"
+  [mode]="'month'"
+  [displayDate]="displayDate"
+  [minDate]="validationMinDate"
+  [maxDate]="validationMaxDate"
+  [required]="required"
+  [placeholder]="placeholder"
+  [config]="config"
+  [theme]="'dp-material dp-main'">
+  </dp-date-picker>
