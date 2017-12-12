@@ -33,7 +33,7 @@ export class HorizontalBarChartComponent implements OnInit  {
   openDialog(slaName): void {
     let dialogRef = this.dialog.open(PopupModalComponent, {
       width: '765px',
-      height: '540px',
+      height: '640px',
       id: slaName
     });
 

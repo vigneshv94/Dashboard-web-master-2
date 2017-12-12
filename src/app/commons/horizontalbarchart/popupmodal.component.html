@@ -1,8 +1,7 @@
-<div style="">
-<p style="text-transform: uppercase;">{{combinedName}}<p>
-</div>
+<div  style="position:fixed; width: 716px;">
+<h6 mat-dialog-title style="text-transform: uppercase;">{{combinedName}}</h6>
 
-
+<mat-dialog-content>
 <div class="mdl-grid" style="display: inline; overflow: auto;">
   <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet" style="display: inline-table;" *ngFor="let card of slaData;let j = index">
 
@@ -159,4 +158,5 @@
       </div>
     </div>
   </div>
+</div></mat-dialog-content>
 </div>
